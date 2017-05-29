@@ -16,7 +16,7 @@ RUN    apk update \
 COPY tkdiff /usr/bin/.
 
 ENV HOME /home/tkdiff
-RUN    useradd --create-home --home-dir $HOME tkdiff \
+RUN    adduser -D -h $HOME tkdiff \
     && chown -R tkdiff:tkdiff $HOME
 
 WORKDIR $HOME
