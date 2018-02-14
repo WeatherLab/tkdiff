@@ -8,7 +8,7 @@
 #
 
 FROM debian:sid
-LABEL maintainer "Xin Zhang <Xin.l.Zhang@noaa.gov>"
+LABEL maintainer "Xin Zhang <xin.zhang@longrunweather.com>"
 
 RUN    apt-get update \
     && apt-get install -y git subversion tk tcl libx11-dev --no-install-recommends \
