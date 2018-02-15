@@ -1,4 +1,4 @@
-# ncview in a container
+# tkdiff in a container
 #
 # docker run  --rm \
 #        -v /tmp/.X11-unix:/tmp/.X11-unix \
