@@ -9,11 +9,10 @@ tkdiff 使用说明
 
 .. code:: bash
 
-   docker run  --rm \
-          -v /tmp/.X11-unix:/tmp/.X11-unix \
-          -e DISPLAY=unix$DISPLAY \
-          -v $HOME/ncview/.ncviewrc:/home/ncview/.ncviewrc \
-          -v `pwd`:/home/ncview \
-          weatherlab/ncview \
-          file_to_be_display.nc
+    docker run  --rm \
+                 -v /tmp/.X11-unix:/tmp/.X11-unix \
+                 -e DISPLAY=unix$DISPLAY \
+                 -v `pwd`:/home/tkdiff \
+                 weatherlab/tkdiff \
+                 file1 file2
            
