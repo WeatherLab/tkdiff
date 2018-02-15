@@ -16,3 +16,5 @@ tkdiff 使用说明
                  weatherlab/tkdiff \
                  file1 file2
            
+.. image:: https://g.codefresh.io/api/badges/build?repoOwner=weatherlab&repoName=tkdiff&branch=master&pipelineName=tkdiff&accountName=weatherhub&type=cf-1
+   :target: https://g.codefresh.io/repositories/weatherlab/tkdiff/builds?filter=trigger:build;branch:master;service:5a85cf756b985f0001bcfb5c~tkdiff
