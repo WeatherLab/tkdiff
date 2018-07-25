@@ -3,6 +3,8 @@
 
 *由北京朗润知天科技有限公司支持*
 
+[![](https://dockerbuildbadges.quelltext.eu/status.svg?organization=weatherhub&repository=tkdiff)](https://hub.docker.com/r/weatherhub/tkdiff/builds/)
+
 运行ncview
 ----------
 
@@ -14,5 +16,3 @@
                  weatherhub/tkdiff \
                  file1 file2
 ```
-
-[![](https://dockerbuildbadges.quelltext.eu/status.svg?organization=weatherhub&repository=tkdiff)](https://hub.docker.com/r/weatherhub/tkdiff/builds/)
