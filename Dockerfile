@@ -4,7 +4,7 @@
 #        -v /tmp/.X11-unix:/tmp/.X11-unix \
 #        -e DISPLAY=unix$DISPLAY \
 #        -v `pwd`:/home/tkdiff \
-# 	 weatherlab/tkdiff file1 file2
+# 	 weatherhub/tkdiff file1 file2
 #
 
 FROM debian:sid
